@@ -1,0 +1,78 @@
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.logoDesc{
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.mainBtn{
+    border: 1px solid red;
+    border-radius: 0;
+    height: 30px;
+    width: 100%;
+    font-size: 11px;
+    color: red;
+}
+
+.welcomeContainer{
+    height: 100%;
+    min-height: 125px;
+    position: relative;
+}
+
+.welcomeContainer > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.welcomeText{
+    color: black;
+    font-size: 23px;
+    white-space: nowrap;
+}
+
+.welcomeText .redText{
+    color: red;
+}
+
+.spacing{
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+.spacing label{
+    display: block;
+}
+
+.spacing select{
+    width: 100%;
+}
+
+.scrolling{
+    max-height: calc(100% - 150px);
+    overflow: auto;
+}
+
+.selectedItem .listItems{
+    color: #d2daff;
+    background-color: black;
+}
+
+.listItems{
+    padding: 5px;
+    font-size: 14px;
+    background-color: #d2daff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.listItems:hover{
+    opacity: 0.8;
+}

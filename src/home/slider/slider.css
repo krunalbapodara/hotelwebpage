@@ -1,0 +1,57 @@
+.sliderContainer{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    background-color: black;
+}
+
+.imgStyle{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.flexLine{
+    display: flex;
+    justify-content: space-between;
+}
+
+.confortTitle{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.confortDesc{
+    font-size: 13px;
+    
+}
+
+.btnStyle{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    height: 40px;
+    width: 50px;
+    background-color: red;
+    border-radius: 0;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btnStyle:hover{
+    opacity: 0.8;
+}
+
+.leftBtn{
+    right: 50px;
+}
+
+.rightBtn{
+    right:0;
+}
